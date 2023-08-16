@@ -12,3 +12,10 @@ const car = { wheels: 4 }
 const flyingCar = {...flying, ...car}
 
 console.log(flyingCar)
+
+console.log("---------------------------")
+
+// Add new members to arrays without using the push() method
+let veggies = ['onion', 'parsely'];
+veggies = [...veggies, 'carrot', 'beetroot'];
+console.log(veggies)
