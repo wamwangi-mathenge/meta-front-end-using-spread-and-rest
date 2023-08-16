@@ -19,3 +19,10 @@ console.log("---------------------------")
 let veggies = ['onion', 'parsely'];
 veggies = [...veggies, 'carrot', 'beetroot'];
 console.log(veggies)
+
+console.log("-----------------------------")
+
+// Convert a string to an array using the spread operator
+const greeting = "Hello"
+const arrayOfChars = [...greeting]
+console.log(arrayOfChars)
